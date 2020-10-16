@@ -2,44 +2,9 @@
 <html>
 <head>
 
-<meta charset="utf-8" />
-	
-<!-- unique CSS command -->
-<style>
-	p.para1 { 
-		font-family: "Courier New", Courier, monospace;
-
-		text-shadow: 2px 2px #ffffff
-	}
-	p.para2 { 
-		font-family: "Times New Roman", Times, serif;
-		text-shadow: 2px 2px #ffffff
-	}
-	body { 
-		background-color: #e6e6ff;
-	}
-	.container {
-  		position: relative;
-  		text-align: center;
-  		color: white;
-  		font-size: 40px;
-	}
-	.centered {
-  		position: absolute;
-  		top: 50%;
-  		left: 50%;
-  		transform: translate(-50%, -50%);
-	}
-	img.mar { 
-		margin: 20px;
-	}
-	p.dot {
-		border: 4px dotted white;
-	}
-	h2.dash {
-		border: 8px dashed white;
-	}
-</style>
+	<meta charset="utf-8" />
+<!-- external style sheet -->
+	<link rel="stylesheet" href="anExternal.css">
 
 </head>
 
@@ -49,8 +14,8 @@
 
 	<h1>Spring Day by BTS lyrics</h1>
 
-	<font color="white" size="5">English Translation</font>
-<!-- paragraph with courier new font -->
+	<h2 class="header">English Translation</h2>
+<!-- paragraph with courier new font + unique CSS command-->
 	<p class="para1">
 		It's only winter here<br>
 		Even in August, winter is here<br>
@@ -64,7 +29,7 @@
 		For the spring days to come?<br>
 		Friend</p>
 
-	<font color="white" size="5">Korean Lyrics</font>
+	<h2 class="header">Korean Lyrics</h2>
 <!-- paragraph with times new roman font -->
 	<p class="para2">
 		여긴 온통 겨울 뿐이야<br>
@@ -101,11 +66,24 @@
 		
 <!-- Text w/ dotted lines border -->		
 	<h2 class="dash">English Translation Continued</h2>
-	<p class="dot">
+	<p class="dot para1">
 		Past the end of this cold winter<br>
 		Until the spring comes again<br>
 		Until the flowers bloom again<br>
 		Stay there a little longer<br>
 		Stay there</p>
+		
+		
+<!-- LEVEL THREE: MASTER -->
+	
+<!-- float element + rounded corners-->
+	<h2 class= "dash" id="rounded">Korean Lyrics Continued</h2>
+	<p class= "dot para2" id="rounded"><img class="flo" src="https://www.sbs.com.au/popasia/sites/sbs.
+		com.au.popasia/files/btsspringday1.png" title="spring day float" style=width:12%>
+		추운 겨울 끝을 지나<br>
+		다시 봄날이 올 때까지<br>
+		꽃 피울 때까지<br>
+		그곳에 좀 더 머물러줘<br>
+		머물러줘<br>
 </body>
 </html>
