@@ -1,0 +1,43 @@
+	p.para1 { 
+		font-family: "Courier New", Courier, monospace;
+		text-shadow: 2px 2px #ffffff;
+	}
+	p.para2 { 
+		font-family: "Times New Roman", Times, serif;
+		text-shadow: 2px 2px #ffffff;
+	}
+	h2.header {
+		color: white;
+	}
+	p.dot {
+		border: 4px dotted white;
+	}
+	body { 
+		background-color: #e6e6ff;
+	}
+	.container {
+  		position: relative;
+  		text-align: center;
+  		color: white;
+  		font-size: 40px;
+	}
+	.centered {
+  		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+	}
+	img.mar { 
+		margin: 20px;
+	}
+	img.flo {
+		float: right;
+		margin-right: 6px;
+		margin-top: 6px;
+	}
+	h2.dash {
+		border: 8px dashed white;
+	}
+	#rounded {
+	border-radius: 10px;
+	}
